@@ -1,0 +1,67 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Styling for the entire table */
+table#about {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #333;
+    width: 20%;
+    height: 100vh; /* Makes the sidebar full height */
+    padding: 15px;
+    color: white;
+}
+
+.sidebar div {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar div:hover {
+    background-color: #45a049;
+}
+
+/* Main content */
+.content {
+    width: 80%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+/* About me section */
+.about-me {
+    text-align: center;
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.about-me img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Font style inside the content */
+.body-text {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: none;
+    border-top: 2px solid #4CAF50;
+    width: 90%;
+    margin: 20px auto;
+}
