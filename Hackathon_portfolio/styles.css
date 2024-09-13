@@ -5,10 +5,20 @@
     box-sizing: border-box;
 }
 
+@keyframes color {
+    0%   { background: #92a8d1; }
+    20%  { background: #034f84; }
+    40%  { background: #f7786b; }
+    60%  { background: #f7cac9; }
+    80%  { background: #ffffff; }
+    100% { background: #034f84; }
+  }
+
 /* Styling the body */
 body {
     font-family: Arial, sans-serif;
     background-color: #92a8d1;
+    animation: color 30s infinite linear;
     padding: 10px;
 }
 
@@ -24,6 +34,7 @@ body {
     text-align: center;
     color: #fff;
     background-color: #034f84;
+    max-height: 30%;
 }
 
 /* Sidebar styling */
