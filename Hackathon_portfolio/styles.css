@@ -98,3 +98,18 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+download-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 25px; /* Padding around the button */
+    font-size: 16px;
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.download-btn:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
